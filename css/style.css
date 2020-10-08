@@ -1,0 +1,120 @@
+/* comment style for css */
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  background-color: chartreuse;
+  font-family: "gotham", helvetica, verdana, sans-serif;
+}
+
+header {
+  background-color: aliceblue;
+  color: black;
+  padding: 2%; /*can be percentage or px. - first is top and bottom, last is left and right, last is bottom*/
+}
+
+/* cmd forward slash for shortcut for comments */
+/* specifically targets elements inside of parents h1 is child header is parent */
+header h1 {
+  font-size: 58px;
+  text-transform: uppercase;
+}
+
+header h2 {
+  font-size: 22px;
+  font-family: georgia, times, serif;
+  font-style: italic;
+
+}
+
+nav {
+  background-color: aliceblue;
+}
+
+nav a:link {
+background-color: blanchedalmond;
+color: burlywood;
+padding: 1.5% 2%;
+display: inline-block;
+/* the box will be the effective link not just the text */
+text-decoration: none;
+}
+/* LVHA - link, visited, hover, active - order that the nav design elements must follow */
+nav a:visited {
+  color: mediumpurple;
+
+}
+nav a:hover {
+  color: blueviolet;
+  background-color: chartreuse;
+}
+
+nav a.active {
+  color: blueviolet;
+  background-color: chartreuse;
+}
+
+article {
+  padding: 2%;
+  /* keep everything in line for good, clean design */
+}
+
+article h1 {
+  font-size: 42px;
+  text-transform: capitalize;
+  margin-bottom: 1%;
+}
+
+article h2 {
+  font-size: 32px;
+  text-transform: capitalize;
+  margin-bottom: 1%;
+}
+
+article p {
+  margin-bottom: 2%;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* classes are ways to differentiate different aspects of the same section? */
+/* id can only be used once per page */
+/* classes start with a . and can be used many times on the page */
+
+.pull_quote {
+  background-color: #333;
+  color: #fff;
+  font-size: 23px;
+  padding: 2%;
+  margin: 0 4% 1%;
+  font-family: georgia, times, serif;
+  font-style: oblique;
+  border-left: solid 20px blanchedalmond;
+
+}
+
+figure {
+  margin-bottom: 1%;
+  width: 20%;
+}
+
+figure img {
+  /* use % when you want a responsive img */
+  width: 100%;
+}
+
+figcaption {
+  font-size: 10px;
+  font-family: georgia, times, serif;
+  font-style: italic;
+  font-align: center;
+
+}
+
+footer {
+  padding: 2%;
+  background-color: aliceblue;
+  font-style: italic;
+}
