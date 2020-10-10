@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+
+section.header_lrg {
+  background-color: cadetblue;
+  color: antiquewhite;
+  /* Note: pixel amounts are not responsive*/
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header_lrg header {
+  /* border:1px solid darkred; */
+  text-align: center;
+}
+
+.header_lrg h2 {
+	font-family: 'Poiret One';
+	font-size:3em; /* 3x 16 (because 16px is the intialized font)*/
+
+	line-height:1em;
+	text-transform:capitalize;
+	color:#eee;
+	font-weight:normal;
+}
+
+
+.header_lrg h1 {
+	font-family: 'Roboto Mono';
+	font-size:5em;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+
+section.right {
+  background: aquamarine;
+  width: 100%;
+  min-height: 70vh;
+  height:auto;
+  padding: 1%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right article {
+  background: lightpink;
+  width: 30%;
+  padding: 2%;
+
+}
+/* =====3col section +++++ */
+
+section.col3x {
+  background: aqua;
+  display: flex;
+  /* flex-flow: row wrap; */
+
+}
+.col3x figure {
+  background-color: lightcyan;
+  flex-grow: 1;
+
+}
+
+.col3x figcaption {
+  padding: 1%;
+  color: black;
+}
+figure img {
+  width: 100%;
+}
+
+section.col3xsm {
+  background-color: blanchedalmond;
+  padding: 4%;
+  display:flex;
+  justify-content: space-between;
+}
+
+section.col3xsm figure {
+  width:30%;
+}
+
+section.ex2 {
+  padding: 2%;
+}
+
+.logo {
+  width:50px;
+  position: fixed;
+  top:2%;
+  left:2%;
+}
