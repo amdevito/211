@@ -118,3 +118,18 @@ footer {
   background-color: aliceblue;
   font-style: italic;
 }
+
+@media (min-width: 768px) {
+  .video-container {
+    flex-direction: row;
+}
+
+.video {
+  width: 100%;
+  margin: 5px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 3em;
