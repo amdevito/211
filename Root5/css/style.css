@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 body {
   background-color: chartreuse;
@@ -27,7 +26,6 @@ header h2 {
   font-size: 22px;
   font-family: georgia, times, serif;
   font-style: italic;
-
 }
 
 nav {
@@ -35,17 +33,16 @@ nav {
 }
 
 nav a:link {
-background-color: blanchedalmond;
-color: burlywood;
-padding: 1.5% 2%;
-display: inline-block;
-/* the box will be the effective link not just the text */
-text-decoration: none;
+  background-color: blanchedalmond;
+  color: burlywood;
+  padding: 1.5% 2%;
+  display: inline-block;
+  /* the box will be the effective link not just the text */
+  text-decoration: none;
 }
 /* LVHA - link, visited, hover, active - order that the nav design elements must follow */
 nav a:visited {
   color: mediumpurple;
-
 }
 nav a:hover {
   color: blueviolet;
@@ -92,7 +89,6 @@ article p {
   font-family: georgia, times, serif;
   font-style: oblique;
   border-left: solid 20px blanchedalmond;
-
 }
 
 figure {
@@ -110,7 +106,6 @@ figcaption {
   font-family: georgia, times, serif;
   font-style: italic;
   font-align: center;
-
 }
 
 footer {
@@ -119,17 +114,23 @@ footer {
   font-style: italic;
 }
 
-@media (min-width: 768px) {
-  .video-container {
-    flex-direction: row;
-}
-
 .video {
   width: 100%;
-  margin: 5px;
 }
 
 .video-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  margin: 1em 3em;
+  margin: 15px;
+}
+
+@media (min-width: 768px) {
+  .video-container {
+    flex-direction: row;
+  }
+
+  .video {
+    margin: 10px;
+  }
+}
