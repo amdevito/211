@@ -132,6 +132,7 @@ p {
 
 .nav-link {
   text-decoration: none;
+  color: cornflowerblue;
 }
 
 a:hover {
