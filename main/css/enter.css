@@ -44,10 +44,15 @@
   font-size: 40px;
   text-decoration: none;
   color: darkred;
+  display: flex;
+  flex-direction: column;
 }
 
 .item-2 {
   grid-column: 3 / 4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .item-3 {
   grid-column: 2 / 4;
@@ -88,24 +93,6 @@
   }
 }
 
-.pull_quote {
-  background-color: black;
-  color: darkgrey;
-  font-size: 23px;
-  padding: 2%;
-  margin: 0 4% 1%;
-  font-family: serif;
-  font-style: oblique;
-  border-left: solid 20px black;
-}
-
-figcaption {
-  font-size: 20px;
-  font-family: serif;
-  font-style: oblique;
-  font-align: center;
-}
-
 p {
   font-size: 16px;
 }
@@ -120,6 +107,5 @@ a:hover {
 }
 a.active {
   color: blueviolet;
-  background-color: black;
   text-decoration: none;
 }
