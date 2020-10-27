@@ -27,7 +27,7 @@ body {
 
 .broken_main > div {
   position: absolute;
-  height: 2em;
+  height: 3em;
   top: 5;
   left: 0;
   right: 0;
@@ -37,13 +37,13 @@ body {
 }
 
 .broken_main > div:nth-child(1) {
-  mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 50%);
   animation: broken_main1 10s infinite;
 }
 
 .broken_main > div:nth-child(2) {
   mask-image: linear-gradient(
-    transparent 25%,
+    transparent 50%,
     black 25%,
     black 50%,
     transparent 50%
@@ -62,7 +62,7 @@ body {
     transparent 50%,
     black 50%,
     black 75%,
-    transparent 75%
+    transparent 50%
   );
   mask-image: linear-gradient(
     transparent 50%,
@@ -74,7 +74,7 @@ body {
 }
 
 .broken_main > div:nth-child(4) {
-  mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%);
   animation: broken_main4 5s infinite;
 }
 
