@@ -1,0 +1,186 @@
+/* === CSS TRANSITIONS AND ANIATION === */
+* {
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: black;
+  font-family: "Syne Mono", monospace;
+}
+
+.broken_main {
+  position: relative;
+  margin: auto;
+  height: 1.3em;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 5vw;
+  letter-spacing: -0.015em;
+  line-height: 0.8em;
+}
+
+section {
+  text-align: center;
+  background: black;
+  width: 300px;
+  height: 400px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.broken_main > div {
+  position: absolute;
+  height: 3em;
+  top: 5;
+  left: 0;
+  right: 0;
+  bottom: 5;
+  color: chartreuse;
+  pointer-events: none;
+}
+
+.broken_main > div:nth-child(1) {
+  mask-image: linear-gradient(black 25%, transparent 50%);
+  -web-kit-mask-image: linear-gradient(black 25%, transparent 50%);
+  animation: broken_main1 10s infinite;
+}
+
+.broken_main > div:nth-child(2) {
+  mask-image: linear-gradient(
+    transparent 50%,
+    black 25%,
+    black 50%,
+    transparent 50%
+  );
+  mask-image: linear-gradient(
+    transparent 25%,
+    black 25%,
+    black 50%,
+    transparent 50%
+  );
+  animation: broken_main2 10s infinite;
+}
+
+.broken_main > div:nth-child(3) {
+  mask-image: linear-gradient(
+    transparent 50%,
+    black 50%,
+    black 75%,
+    transparent 50%
+  );
+  mask-image: linear-gradient(
+    transparent 50%,
+    black 50%,
+    black 75%,
+    transparent 75%
+  );
+  animation: broken_main3 5s infinite;
+}
+
+.broken_main > div:nth-child(4) {
+  -web-kit-mask-image: linear-gradient(transparent 50%, black 50%);
+  animation: broken_main4 5s infinite;
+}
+
+@keyframes broken_main1 {
+  0% {
+    transform: translateX(-2%);
+  }
+  26% {
+    transform: translateX(1%);
+  }
+  83% {
+    transform: translateX(-0.1%);
+  }
+  100% {
+    transform: translateX(-2%);
+  }
+}
+
+@keyframes broken_main2 {
+  0% {
+    transform: translateX(0.2%);
+  }
+  24% {
+    transform: translateX(0.5%);
+  }
+  82% {
+    transform: translateX(-0.2%);
+  }
+  100% {
+    transform: translateX(0.1%);
+  }
+}
+
+@keyframes broken_main3 {
+  /*i don't think this is working?*/
+  0% {
+    transform: translateX(3%);
+  }
+  22% {
+    transform: translateX(0%);
+  }
+  81% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-2%);
+  }
+}
+
+@keyframes broken_main4 {
+  /*i don't think this is working?*/
+  0% {
+    transform: translateX(4%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(-0.5%);
+  }
+  100% {
+    transform: translateX(4%);
+  }
+}
+
+header {
+  padding-left: 2em;
+}
+
+/* main section with links and info */
+div {
+  font-family: "Syne Mono", monospace;
+  padding-top: 1em;
+  padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+/* change to plain glowing boxes with image inside that glow and change to info  */
+.glow_in {
+  border: 2px solid chartreuse;
+  border-radius: 0.6em;
+  text-decoration: none;
+  padding: 0.2em 0.8em;
+  border-color: black;
+  margin: 0.3em; /* space around/between buttons */
+  color: deepskyblue;
+  box-shadow: 0 0 40px 40px black inset, 0 0 0 0 black;
+  transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.glow_in:hover {
+  box-shadow: 0 0 30px 0 mediumpurple inset, 0 0 20px 4px chartreuse;
+  color: ghostwhite;
+}
