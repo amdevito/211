@@ -24,6 +24,7 @@ body {
   font-size: 5vw;
   letter-spacing: -0.015em;
   line-height: 0.8em;
+  padding-bottom: 1em;
 }
 
 section {
@@ -155,6 +156,9 @@ section {
 
 header {
   padding-left: 2em;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5em;
 }
 
 /* main section with links and info */
