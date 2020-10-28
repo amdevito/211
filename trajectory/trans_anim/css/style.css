@@ -37,7 +37,7 @@ body {
 }
 
 .broken_main > div:nth-child(1) {
-  -web-kit-mask-image: linear-gradient(black 25%, transparent 50%);
+  mask-image: linear-gradient(black 25%, transparent 50%);
   -web-kit-mask-image: linear-gradient(black 25%, transparent 50%);
   animation: broken_main1 10s infinite;
 }
