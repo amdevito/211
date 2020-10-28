@@ -37,7 +37,8 @@ body {
 }
 
 .broken_main > div:nth-child(1) {
-  mask-image: linear-gradient(black 25%, transparent 50%);
+  -web-kit-mask-image: linear-gradient(black 25%, transparent 50%);
+  -web-kit-mask-image: linear-gradient(black 25%, transparent 50%);
   animation: broken_main1 10s infinite;
 }
 
@@ -74,7 +75,7 @@ body {
 }
 
 .broken_main > div:nth-child(4) {
-  mask-image: linear-gradient(transparent 50%, black 50%);
+  -web-kit-mask-image: linear-gradient(transparent 50%, black 50%);
   animation: broken_main4 5s infinite;
 }
 
@@ -127,16 +128,16 @@ body {
 @keyframes broken_main4 {
   /*i don't think this is working?*/
   0% {
-    transform: translateX(10%);
+    transform: translateX(4%);
   }
   20% {
     transform: translateX(0%);
   }
   80% {
-    transform: translateX(0%);
+    transform: translateX(-0.5%);
   }
   100% {
-    transform: translateX(-10%);
+    transform: translateX(4%);
   }
 }
 
