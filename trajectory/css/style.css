@@ -1,7 +1,7 @@
 /* === CSS TRANSITIONS AND ANIATION === */
 * {
   margin: 0;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-top: 10px;
   box-sizing: border-box;
 }
@@ -16,6 +16,7 @@ body {
 }
 
 .broken_main {
+  flex: 1;
   position: relative;
   margin: auto;
   height: 1.3em;
@@ -154,15 +155,30 @@ section {
   }
 }
 
-header {
-  padding-left: 2em;
+.main_container {
+  padding: 5em 2em;
   display: flex;
+  justify-content: space-between;
+}
+
+header {
+  padding-left: 1em;
+  padding-right: 10em;
+  flex: 1;
   flex-direction: column;
-  padding-top: 5em;
 }
 
 /* main section with links and info */
-div {
+.broken_main {
+  font-family: "Syne Mono", monospace;
+  padding-top: 1em;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.glow_in_container {
   font-family: "Syne Mono", monospace;
   padding-top: 1em;
   padding-right: 2em;
@@ -171,12 +187,51 @@ div {
   text-align: right;
 }
 
+.container {
+  position: relative;
+}
+
+.image1 {
+  display: justify-right;
+  width: 55%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: right;
+}
+
 /* change to plain glowing boxes with image inside that glow and change to info  */
 .glow_in {
   border: 2px solid chartreuse;
   border-radius: 0.6em;
   text-decoration: none;
-  padding: 0.2em 0.8em;
+  padding: 2em 2em;
   border-color: black;
   margin: 0.3em; /* space around/between buttons */
   color: deepskyblue;
