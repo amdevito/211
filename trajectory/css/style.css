@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding-left: 5px;
-  padding-top: 10px;
+  padding-top: 2px;
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -26,8 +26,17 @@ h4 {
 h3 {
   color: aliceblue;
   font-decoration: none;
-  padding-top: 6.5em;
-  padding-right: 4em;
+  padding-top: 6.8em;
+  padding-right: 5em;
+  padding-left: 1em;
+
+  justify-content: right;
+}
+h2 {
+  color: aliceblue;
+  font-decoration: none;
+  padding-left: 1em;
+  padding-right: 1em;
   justify-content: right;
 }
 
@@ -172,12 +181,13 @@ section {
 }
 
 .main_container {
-  padding: 5em 2em;
+  padding: 3em 2em;
   display: flex;
   justify-content: space-between;
 }
 
 header {
+  padding-top: 3em;
   padding-left: 1em;
   padding-right: 10em;
   flex: 1;
@@ -215,6 +225,7 @@ header {
 }
 
 .overlay {
+  padding-top: 3em;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -225,6 +236,7 @@ header {
   opacity: 0;
   transition: 0.5s ease;
   background-color: black;
+  border-radius: 0.8em;
 }
 .overlay2 {
   position: absolute;
