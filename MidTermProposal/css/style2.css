@@ -14,6 +14,7 @@ body {
   min-height: 100vh;
   background-color: black;
   font-family: avenir;
+  font-weight: lighter;
 }
 
 h4 {
@@ -21,6 +22,15 @@ h4 {
   padding-right: 4em;
   justify-content: right;
   font-family: "The Girl Next Door", cursive;
+}
+a:link {
+  color: deeppink;
+}
+a:visited {
+  color: blueviolet;
+}
+a:hover {
+  color: deepskyblue;
 }
 
 h3 {
