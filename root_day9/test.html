@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>test</title>
+    <style>
+      #btn {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: crimson;
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        transition: all 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="btn"></div>
+
+    <script>
+      const circle = document.querySelector("#btn");
+      <!-- console.log(circle); -->
+
+      circle.onclick = function() {
+        circle.style.top = "0%"
+      }
+    </script>
+  </body>
+</html>
