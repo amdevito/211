@@ -42,16 +42,22 @@ h2 {
   color: aliceblue;
   font-size: 18px;
   font-decoration: none;
-  padding-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
   justify-content: left;
+}
+a:link {
+  color: deeppink;
+}
+a:visited {
+  color: lawngreen;
+}
+a:hover {
+  color: deepskyblue;
 }
 
 .broken_main {
   flex: 1;
   position: relative;
-  /* margin: auto; */
+  margin: auto;
   height: 1em;
   color: transparent;
   font-family: "Syne Mono", monospace;
@@ -60,9 +66,25 @@ h2 {
   line-height: 1em;
   padding-top: 0;
 }
+.responses_container {
+  flex: 1;
+  position: relative;
+  margin: auto;
+  height: 1em;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 1.1vw;
+  letter-spacing: -0.015em;
+  line-height: 1.3em;
+  padding-top: 5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
 section {
-  text-align: center;
+  display: flex;
+  flex: 1;
+  text-align: left;
   background: black;
   width: 300px;
   height: 400px;
@@ -306,7 +328,7 @@ body {
 }
 
 .sign {
-  padding-right: 2em;
+  padding-right: 0em;
   padding-top: 1em;
   padding-bottom: 0.3em;
   position: absolute;
