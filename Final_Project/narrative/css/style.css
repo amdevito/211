@@ -45,10 +45,10 @@ h2 {
   justify-content: left;
 }
 a:link {
-  color: deeppink;
+  color: lawngreen;
 }
 a:visited {
-  color: lawngreen;
+  color: deeppink;
 }
 a:hover {
   color: deepskyblue;
@@ -76,7 +76,7 @@ a:hover {
   font-size: 1.1vw;
   letter-spacing: -0.015em;
   line-height: 1.3em;
-  padding-top: 5em;
+  padding-top: 7em;
   padding-left: 1em;
   padding-right: 2em;
 }
