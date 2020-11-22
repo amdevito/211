@@ -1,8 +1,4 @@
 * {
-  margin: 40px.;
-  padding-left: 2px;
-  padding-top: 2px;
-  box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -55,14 +51,14 @@ h2 {
 .broken_main {
   flex: 1;
   position: relative;
-  margin: auto;
-  height: 1.3em;
+  /* margin: auto; */
+  height: 1em;
   color: transparent;
   font-family: "Syne Mono", monospace;
   font-size: 3vw;
   letter-spacing: -0.015em;
-  line-height: 0.8em;
-  padding-bottom: 1em;
+  line-height: 1em;
+  padding-top: 0;
 }
 
 section {
@@ -200,7 +196,7 @@ section {
 
 header {
   padding-top: 3em;
-  padding-left: 1em;
+  padding-left: 2em;
   padding-right: 10em;
   flex: 1;
   flex-direction: column;
@@ -233,7 +229,7 @@ header {
 
 .image1 {
   display: justify-right;
-  width: 105%;
+  width: 100%;
   height: auto;
 }
 
@@ -272,14 +268,11 @@ header {
 
 .text {
   color: white;
-  font-size: 20px;
-  padding-right: 1em;
+  font-size: 18px;
+  padding-right: 0em;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  top: 0%;
+  left: 60%;
 }
 
 /* change to plain glowing boxes with image inside that glow and change to info  */
@@ -314,10 +307,11 @@ body {
 
 .sign {
   padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
   position: absolute;
   display: flex;
   justify-content: left;
-  align-items: right;
   width: 50%;
   height: 50%;
   background-image: radial-gradient(
@@ -326,12 +320,12 @@ body {
     transparent
   );
   transform: translate(-50%, -50%);
-  letter-spacing: 2;
+  letter-spacing: 0;
   left: 50%;
   top: 50%;
   font-family: "The Girl Next Door";
   /* text-transform: uppercase; */
-  font-size: 3em;
+  font-size: 2em;
   color: springgreen;
   text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
     -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
