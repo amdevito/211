@@ -246,7 +246,8 @@ header {
 
 .container {
   position: absolute;
-  padding: 2em;
+  padding-left: 50em;
+  padding-top: 10em;
 }
 
 .image1 {
