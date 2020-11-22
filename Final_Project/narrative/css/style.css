@@ -38,10 +38,9 @@ h3 {
   color: aliceblue;
   font-decoration: none;
   padding-top: 1em;
-  padding-right: 2em;
+  padding-right: 0em;
   padding-left: 1em;
-
-  justify-content: right;
+  justify-content: left;
 }
 h2 {
   color: aliceblue;
@@ -221,7 +220,7 @@ header {
 .glow_in_container {
   font-family: "Syne Mono", monospace;
   padding-top: 20em;
-  padding-right: 10em;
+  padding-right: 20em;
   display: flex;
   flex-direction: row;
   text-align: left;
@@ -253,7 +252,7 @@ header {
 }
 .overlay2 {
   /* fixed is a neat thing to try */
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
