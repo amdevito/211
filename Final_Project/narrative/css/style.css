@@ -78,7 +78,7 @@ a:hover {
   line-height: 1.3em;
   padding-top: 5em;
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 2em;
 }
 
 section {
@@ -243,11 +243,19 @@ header {
   flex-direction: row;
   text-align: left;
 }
+.glow_in_container2 {
+  font-family: "Syne Mono", monospace;
+  padding-top: 5em;
+  padding-right: 60em;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
 
 .container {
   position: absolute;
-  padding-left: 50em;
-  padding-top: 10em;
+  padding-left: 25em;
+  padding-top: 2em;
 }
 
 .image1 {
@@ -311,6 +319,21 @@ header {
   transition: all 1s ease-in-out;
 }
 .glow_in:hover {
+  box-shadow: 0 0 30px 0 mediumpurple inset, 0 0 20px 4px chartreuse;
+  color: ghostwhite;
+}
+.glow_in2 {
+  border: 2px solid chartreuse;
+  border-radius: 0.6em;
+  text-decoration: none;
+  padding: 2em 2em;
+  border-color: transparent;
+  margin: 0.3em; /* space around/between buttons */
+  color: deepskyblue;
+  transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.glow_in2:hover {
   box-shadow: 0 0 30px 0 mediumpurple inset, 0 0 20px 4px chartreuse;
   color: ghostwhite;
 }
