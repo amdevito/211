@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding-left: 5px;
+  margin: 40px.;
+  padding-left: 2px;
   padding-top: 2px;
   box-sizing: border-box;
   text-decoration: none;
@@ -37,7 +37,7 @@ h4 {
 h3 {
   color: aliceblue;
   font-decoration: none;
-  padding-top: 6.8em;
+  padding-top: 1em;
   padding-right: 2em;
   padding-left: 1em;
 
@@ -45,12 +45,12 @@ h3 {
 }
 h2 {
   color: aliceblue;
-  font-size: 22px;
+  font-size: 18px;
   font-decoration: none;
   padding-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
-  justify-content: right;
+  justify-content: left;
 }
 
 .broken_main {
@@ -74,7 +74,7 @@ section {
   transition: all 0.3s;
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 .broken_main > div {
@@ -162,9 +162,9 @@ section {
   }
 }
 
-@keyframes broken_main3 {
+/* @keyframes broken_main3 {
   /*i don't think this is working?*/
-  0% {
+/* 0% {
     transform: translateX(3%);
   }
   22% {
@@ -176,11 +176,10 @@ section {
   100% {
     transform: translateX(-2%);
   }
-}
-
-@keyframes broken_main4 {
-  /*i don't think this is working?*/
-  0% {
+} */
+/* @keyframes broken_main4 { */
+/*i don't think this is working?*/
+/* 0% {
     transform: translateX(4%);
   }
   20% {
@@ -193,11 +192,11 @@ section {
     transform: translateX(4%);
   }
 } */
-
 .main_container {
   padding: 3em 2em;
+  padding-left: 250px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 header {
@@ -211,6 +210,7 @@ header {
 /* main section with links and info */
 .broken_main {
   font-family: "Syne Mono", monospace;
+  font-size: 19px;
   padding-top: 1em;
   padding-right: 1em;
   display: flex;
@@ -220,21 +220,21 @@ header {
 
 .glow_in_container {
   font-family: "Syne Mono", monospace;
-  padding-top: 1em;
-  padding-right: 2em;
+  padding-top: 20em;
+  padding-right: 10em;
   display: flex;
-  flex-direction: column;
-  text-align: right;
+  flex-direction: row;
+  text-align: left;
 }
 
 .container {
-  position: relative;
+  position: absolute;
   padding: 2em;
 }
 
 .image1 {
   display: justify-right;
-  width: 75%;
+  width: 105%;
   height: auto;
 }
 
@@ -244,14 +244,15 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: 0%;
+  width: 0%;
   opacity: 0;
   transition: 0.5s ease;
   background-color: black;
   border-radius: 0.8em;
 }
 .overlay2 {
+  /* fixed is a neat thing to try */
   position: absolute;
   top: 0;
   bottom: 0;
@@ -273,14 +274,13 @@ header {
 .text {
   color: white;
   font-size: 20px;
-  padding-right: 5em;
+  padding-right: 1em;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: right;
 }
 
 /* change to plain glowing boxes with image inside that glow and change to info  */
