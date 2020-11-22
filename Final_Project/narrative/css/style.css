@@ -108,7 +108,7 @@ section {
 /* transparency of users video */
 .broken_main > div:nth-child(1) {
   mask-image: linear-gradient(black 35%, transparent 100%);
-  -web-kit-mask-image: linear-gradient(black 25%, transparent 50%);
+  mask-image: linear-gradient(black 25%, transparent 100%);
   animation: broken_main1 10s infinite;
 }
 
@@ -211,15 +211,15 @@ section {
 } */
 .main_container {
   padding: 3em 2em;
-  padding-left: 250px;
+  padding-left: 100px;
   display: flex;
   justify-content: center;
 }
 
 header {
-  padding-top: 3em;
-  padding-left: 2em;
-  padding-right: 10em;
+  padding-top: 0em;
+  padding-left: 0em;
+  padding-right: 17em;
   flex: 1;
   flex-direction: column;
 }
@@ -246,7 +246,7 @@ header {
 .glow_in_container2 {
   font-family: "Syne Mono", monospace;
   padding-top: 5em;
-  padding-right: 60em;
+  padding-right: 0em;
   display: flex;
   flex-direction: row;
   text-align: left;
@@ -284,8 +284,8 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 400px;
   opacity: 0;
   transition: 0.5s ease;
 }
@@ -303,7 +303,7 @@ header {
   padding-right: 0em;
   position: absolute;
   top: 0%;
-  left: 60%;
+  left: 55%;
 }
 
 /* change to plain glowing boxes with image inside that glow and change to info  */
@@ -311,7 +311,7 @@ header {
   border: 2px solid chartreuse;
   border-radius: 0.6em;
   text-decoration: none;
-  padding: 2em 2em;
+  padding: 1em;
   border-color: transparent;
   margin: 0.3em; /* space around/between buttons */
   color: deepskyblue;
@@ -326,7 +326,10 @@ header {
   border: 2px solid chartreuse;
   border-radius: 0.6em;
   text-decoration: none;
-  padding: 2em 2em;
+  padding-left: 1em;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+
   border-color: transparent;
   margin: 0.3em; /* space around/between buttons */
   color: deepskyblue;
