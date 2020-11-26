@@ -145,8 +145,16 @@ figcaption {
   font-align: center;
 }
 
+h1 {
+  margin-left: 4%;
+}
+
 p {
   font-size: 16px;
+}
+
+.nobull {
+  list-style-type: none;
 }
 
 .nav-link {
