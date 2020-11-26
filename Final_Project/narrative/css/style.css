@@ -4,43 +4,46 @@
 
 #container {
   margin: 0px auto;
-  width: 600px;
-  height: 450px;
+  width: 70%;
+  height: auto;
+  padding-top: 5%;
+  padding-right: 20%;
+
   border: transparent;
 }
 #videoElement {
-  width: 600px;
-  height: 450px;
+  width: 100%;
+  height: auto;
   background-color: transparent;
+  position: relative;
 }
 
 body {
   height: 100%;
-  display: flex;
-  align-items: flex-start;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: black;
   font-family: "Syne Mono", monospace;
 }
 
 h4 {
-  padding-top: 5em;
-  padding-right: 4em;
+  padding-top: 10%;
+  padding-right: 4%;
   justify-content: right;
   font-family: "The Girl Next Door", cursive;
 }
 
 h3 {
   color: aliceblue;
+  font-size: 100%;
   font-decoration: none;
-  padding-top: 1em;
-  padding-right: 0em;
-  padding-left: 1em;
+  padding-top: 1%;
+  padding-right: 0%;
+  padding-left: 1%;
   justify-content: left;
 }
 h2 {
   color: aliceblue;
-  font-size: 18px;
+  font-size: 100%;
   font-decoration: none;
   justify-content: left;
 }
@@ -54,8 +57,7 @@ a:hover {
   color: deepskyblue;
 }
 
-.broken_main {
-  flex: 1;
+/* .broken_main {
   position: relative;
   margin: auto;
   height: 1em;
@@ -65,22 +67,21 @@ a:hover {
   letter-spacing: -0.015em;
   line-height: 1em;
   padding-top: 0;
-}
+} */
 .responses_container {
   flex: 1;
   position: relative;
   margin: auto;
-  height: 1em;
+  height: 100%;
+  width: auto;
   color: transparent;
   font-family: "Syne Mono", monospace;
-  font-size: 1.1vw;
-  letter-spacing: -0.015em;
-  line-height: 1.3em;
-  padding-top: 7em;
-  padding-left: 1em;
-  padding-right: 2em;
+  font-size: 100%;
+  line-height: 90%;
+  margin-top: 12%;
+  margin-left: 3%;
 }
-
+/*
 section {
   display: flex;
   flex: 1;
@@ -92,7 +93,7 @@ section {
   position: relative;
   overflow: hidden;
   border-radius: 1px;
-}
+} */
 
 .broken_main > div {
   position: absolute;
@@ -149,73 +150,6 @@ section {
   animation: broken_main4 5s infinite;
 }
 
-/* @keyframes broken_main1 {
-  0% {
-    transform: translateX(-2%);
-  }
-  26% {
-    transform: translateX(1%);
-  }
-  83% {
-    transform: translateX(-0.1%);
-  }
-  100% {
-    transform: translateX(-2%);
-  }
-}
-
-@keyframes broken_main2 {
-  0% {
-    transform: translateX(0.2%);
-  }
-  24% {
-    transform: translateX(0.5%);
-  }
-  82% {
-    transform: translateX(-0.2%);
-  }
-  100% {
-    transform: translateX(0.1%);
-  }
-}
-
-/* @keyframes broken_main3 {
-  /*i don't think this is working?*/
-/* 0% {
-    transform: translateX(3%);
-  }
-  22% {
-    transform: translateX(0%);
-  }
-  81% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-2%);
-  }
-} */
-/* @keyframes broken_main4 { */
-/*i don't think this is working?*/
-/* 0% {
-    transform: translateX(4%);
-  }
-  20% {
-    transform: translateX(0%);
-  }
-  80% {
-    transform: translateX(-0.5%);
-  }
-  100% {
-    transform: translateX(4%);
-  }
-} */
-.main_container {
-  padding: 3em 2em;
-  padding-left: 100px;
-  display: flex;
-  justify-content: center;
-}
-
 header {
   padding-top: 0em;
   padding-left: 0em;
@@ -228,40 +162,34 @@ header {
 .broken_main {
   font-family: "Syne Mono", monospace;
   font-size: 19px;
-  padding-top: 1em;
-  padding-right: 1em;
-  display: flex;
-  flex-direction: column;
   text-align: right;
 }
 
 .glow_in_container {
   font-family: "Syne Mono", monospace;
-  padding-top: 20em;
-  padding-right: 20em;
-  display: flex;
+  padding-top: 5%;
+  padding-left: 0%;
   flex-direction: row;
   text-align: left;
 }
 .glow_in_container2 {
   font-family: "Syne Mono", monospace;
-  padding-top: 5em;
-  padding-right: 0em;
-  display: flex;
   flex-direction: row;
-  text-align: left;
+  text-align: right;
 }
 
 .container {
   position: absolute;
-  padding-left: 25em;
-  padding-top: 2em;
+  margin-top: 50%;
+  padding-left: 10%;
+  padding-right: 5%;
 }
 
 .image1 {
-  display: justify-right;
-  width: 100%;
+  width: 70%;
   height: auto;
+  padding-left: 30%;
+  padding-top: 20%;
 }
 
 .overlay {
@@ -270,8 +198,7 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 0%;
-  width: 0%;
+
   opacity: 0;
   transition: 0.5s ease;
   background-color: black;
@@ -279,13 +206,12 @@ header {
 }
 .overlay2 {
   /* fixed is a neat thing to try */
-  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: auto;
-  width: 400px;
+  height: 50%;
+  width: 100%;
   opacity: 0;
   transition: 0.5s ease;
 }
@@ -299,11 +225,11 @@ header {
 
 .text {
   color: white;
-  font-size: 18px;
-  padding-right: 0em;
+  font-size: 100%;
+  padding-left: 5%;
   position: absolute;
   top: 0%;
-  left: 55%;
+  left: 0%;
 }
 
 /* change to plain glowing boxes with image inside that glow and change to info  */
@@ -355,19 +281,17 @@ body {
 }
 
 .sign {
-  padding-right: 0em;
-  padding-top: 1em;
-  padding-bottom: 0.3em;
+  padding-bottom: 17%;
   position: absolute;
   display: flex;
   justify-content: left;
-  width: 50%;
-  height: 50%;
-  background-image: radial-gradient(
+  width: 80%;
+  height: auto;
+  /* background-image: radial-gradient(
     ellipse 50% 35% at 50% 50%,
     #6b1839,
     transparent
-  );
+  ); */
   transform: translate(-50%, -50%);
   letter-spacing: 0;
   left: 50%;
