@@ -153,6 +153,10 @@ p {
   font-size: 16px;
 }
 
+a {
+  padding: 5px;
+}
+
 .nobull {
   list-style-type: none;
 }
