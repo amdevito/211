@@ -233,6 +233,9 @@ header {
   left: 0%;
 }
 
+.hover_here {
+}
+
 /* change to plain glowing boxes with image inside that glow and change to info  */
 .glow_in {
   border: 2px solid chartreuse;
