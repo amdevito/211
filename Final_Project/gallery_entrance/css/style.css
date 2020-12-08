@@ -120,6 +120,19 @@ a:hover {
   margin-top: 7%;
   margin-left: 1%;
 }
+.responses_container4 {
+  flex: 1;
+  position: relative;
+  /* margin: auto; */
+  height: 100%;
+  width: 100%;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 100%;
+  line-height: 90%;
+  margin-top: 28%;
+  margin-left: 2%;
+}
 /*
 section {
   display: flex;
@@ -324,7 +337,7 @@ body {
 
 .sign {
   padding-bottom: 17%;
-  padding-left: 3%;
+  padding-left: 5%;
   position: absolute;
   display: flex;
   justify-content: left;
@@ -350,7 +363,7 @@ body {
 }
 .sign1 {
   padding-bottom: 10%;
-  padding-left: 10%;
+  padding-left: 18%;
   position: absolute;
   display: flex;
   justify-content: left;
@@ -375,7 +388,7 @@ body {
   animation: shine 2s forwards, flicker 3s infinite;
 }
 .sign2 {
-  padding-bottom: 5%;
+  padding-bottom: 10%;
   padding-left: 25%;
   position: absolute;
   display: flex;
@@ -402,8 +415,8 @@ body {
 }
 
 .sign3 {
-  padding-bottom: 25%;
-  padding-left: 7%;
+  padding-bottom: 20%;
+  padding-left: 13%;
   position: absolute;
   display: flex;
   justify-content: left;
@@ -430,6 +443,58 @@ body {
 
 .sign4 {
   padding-bottom: 10%;
+  padding-right: 8%;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  /* background-image: radial-gradient(
+    ellipse 50% 35% at 50% 50%,
+    #6b1839,
+    transparent
+  ); */
+  transform: translate(-50%, -50%);
+  letter-spacing: 0;
+  left: 50%;
+  top: 50%;
+  font-family: "The Girl Next Door";
+  /* text-transform: uppercase; */
+  font-size: 2em;
+  color: springgreen;
+  text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+.sign5 {
+  padding-bottom: 13%;
+  padding-left: 4%;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  /* background-image: radial-gradient(
+    ellipse 50% 35% at 50% 50%,
+    #6b1839,
+    transparent
+  ); */
+  transform: translate(-50%, -50%);
+  letter-spacing: 0;
+  left: 50%;
+  top: 50%;
+  font-family: "The Girl Next Door";
+  /* text-transform: uppercase; */
+  font-size: 2em;
+  color: springgreen;
+  text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+.sign6 {
+  padding-bottom: 13%;
   padding-right: 8%;
   position: absolute;
   display: flex;
