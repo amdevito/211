@@ -73,13 +73,39 @@ a:hover {
   position: relative;
   margin: auto;
   height: 100%;
-  width: auto;
+  width: 50%;
   color: transparent;
   font-family: "Syne Mono", monospace;
   font-size: 100%;
   line-height: 90%;
-  margin-top: 14%;
-  margin-left: 12%;
+  margin-top: 8%;
+  margin-left: 7%;
+}
+.responses_container1 {
+  flex: 1;
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 70%;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 100%;
+  line-height: 90%;
+  margin-top: 12%;
+  margin-left: 10%;
+}
+.responses_container2 {
+  flex: 1;
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 50%;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 100%;
+  line-height: 90%;
+  margin-top: 8%;
+  margin-left: 7%;
 }
 /*
 section {
@@ -177,11 +203,24 @@ header {
   flex-direction: row;
   text-align: right;
 }
+.glow_in_container3 {
+  font-family: "Syne Mono", monospace;
+  flex-direction: row;
+  text-align: right;
+  /* padding-left: 5%; */
+}
 
 .container {
   position: absolute;
   margin-top: 35%;
   padding-left: 10%;
+  padding-right: 5%;
+}
+
+.container1 {
+  position: absolute;
+  margin-top: 35%;
+  padding-left: 50%;
   padding-right: 5%;
 }
 
@@ -232,6 +271,15 @@ header {
   top: 0%;
   left: 0%;
 }
+.text1 {
+  color: white;
+  font-size: 100%;
+  padding-left: 5%;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
 
 .hover_here {
 }
@@ -258,6 +306,7 @@ header {
   text-decoration: none;
   padding-left: 1em;
   padding-right: 1.5em;
+  padding-top: 2%;
   padding-bottom: 1em;
 
   border-color: transparent;
@@ -286,7 +335,33 @@ body {
 
 .sign {
   padding-bottom: 7%;
-  padding-left: 20%;
+  padding-left: 4%;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  /* background-image: radial-gradient(
+    ellipse 50% 35% at 50% 50%,
+    #6b1839,
+    transparent
+  ); */
+  transform: translate(-50%, -50%);
+  letter-spacing: 0;
+  left: 50%;
+  top: 50%;
+  font-family: "The Girl Next Door";
+  /* text-transform: uppercase; */
+  font-size: 2em;
+  color: springgreen;
+  text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+.sign1 {
+  padding-bottom: 7%;
+  padding-left: 14%;
   position: absolute;
   display: flex;
   justify-content: left;
