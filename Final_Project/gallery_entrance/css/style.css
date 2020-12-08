@@ -133,6 +133,20 @@ a:hover {
   margin-top: 28%;
   margin-left: 2%;
 }
+.responses_container5 {
+  flex: 1;
+  position: relative;
+  /* margin: auto; */
+  height: 100%;
+  width: 96%;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 100%;
+  line-height: 100%;
+  margin-top: 17%;
+  margin-left: 2%;
+  padding-right: 10%;
+}
 /*
 section {
   display: flex;
