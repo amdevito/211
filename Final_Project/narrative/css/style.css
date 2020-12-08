@@ -4,10 +4,10 @@
 
 #container {
   margin: 0px auto;
-  width: 70%;
+  width: 50%;
   height: auto;
   padding-top: 5%;
-  padding-right: 20%;
+  padding-right: 30%;
 
   border: transparent;
 }
@@ -78,8 +78,8 @@ a:hover {
   font-family: "Syne Mono", monospace;
   font-size: 100%;
   line-height: 90%;
-  margin-top: 12%;
-  margin-left: 3%;
+  margin-top: 14%;
+  margin-left: 12%;
 }
 /*
 section {
@@ -180,16 +180,16 @@ header {
 
 .container {
   position: absolute;
-  margin-top: 50%;
+  margin-top: 35%;
   padding-left: 10%;
   padding-right: 5%;
 }
 
 .image1 {
   width: 70%;
-  height: auto;
+  height: 100%;
   padding-left: 30%;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 .overlay {
@@ -285,7 +285,8 @@ body {
 }
 
 .sign {
-  padding-bottom: 17%;
+  padding-bottom: 7%;
+  padding-left: 20%;
   position: absolute;
   display: flex;
   justify-content: left;
