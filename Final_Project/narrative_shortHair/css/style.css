@@ -57,17 +57,6 @@ a:hover {
   color: deepskyblue;
 }
 
-/* .broken_main {
-  position: relative;
-  margin: auto;
-  height: 1em;
-  color: transparent;
-  font-family: "Syne Mono", monospace;
-  font-size: 3vw;
-  letter-spacing: -0.015em;
-  line-height: 1em;
-  padding-top: 0;
-} */
 .responses_container {
   flex: 1;
   position: relative;
@@ -120,20 +109,58 @@ a:hover {
   margin-top: 7%;
   margin-left: 7%;
 }
-/*
-section {
-  display: flex;
+.responses_container4 {
   flex: 1;
-  text-align: left;
-  background: black;
-  width: 300px;
-  height: 400px;
-  transition: all 0.3s;
   position: relative;
-  overflow: hidden;
-  border-radius: 1px;
-} */
-
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 100%;
+  line-height: 90%;
+  margin-top: 22%;
+  margin-left: 20%;
+}
+.responses_container5 {
+  flex: 1;
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 50%;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 100%;
+  line-height: 100%;
+  margin-top: 10%;
+  margin-left: 9%;
+}
+.responses_container6 {
+  flex: 1;
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 100%;
+  line-height: 90%;
+  margin-top: 17%;
+  margin-left: 15%;
+}
+.responses_container7 {
+  flex: 1;
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 50%;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 100%;
+  line-height: 100%;
+  margin-top: 11%;
+  margin-left: 10%;
+}
 .broken_main > div {
   position: absolute;
   height: 3em;
@@ -238,10 +265,10 @@ header {
 }
 
 .image1 {
-  width: 70%;
+  width: 60%;
   height: 100%;
-  padding-left: 30%;
-  padding-top: 10%;
+  padding-left: 40%;
+  padding-top: 20%;
 }
 
 .overlay {
@@ -406,17 +433,116 @@ body {
   justify-content: left;
   width: 80%;
   height: auto;
-  /* background-image: radial-gradient(
-    ellipse 50% 35% at 50% 50%,
-    #6b1839,
-    transparent
-  ); */
   transform: translate(-50%, -50%);
   letter-spacing: 0;
   left: 50%;
   top: 50%;
   font-family: "The Girl Next Door";
   /* text-transform: uppercase; */
+  font-size: 2em;
+  color: springgreen;
+  text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+.sign3 {
+  padding-bottom: 5%;
+  padding-left: 43%;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0;
+  left: 50%;
+  top: 50%;
+  font-family: "The Girl Next Door";
+  /* text-transform: uppercase; */
+  font-size: 2em;
+  color: springgreen;
+  text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+.sign4 {
+  padding-bottom: 4%;
+  padding-left: 5%;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0;
+  left: 50%;
+  top: 50%;
+  font-family: "The Girl Next Door";
+  /* text-transform: uppercase; */
+  font-size: 2em;
+  color: springgreen;
+  text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+.sign5 {
+  padding-bottom: 8%;
+  padding-left: 9%;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0;
+  left: 50%;
+  top: 50%;
+  font-family: "The Girl Next Door";
+  /* text-transform: uppercase; */
+  font-size: 2em;
+  color: springgreen;
+  text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+.sign6 {
+  padding-bottom: 8%;
+  padding-left: 12%;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0;
+  left: 50%;
+  top: 50%;
+  font-family: "The Girl Next Door";
+  /* text-transform: uppercase; */
+  font-size: 2em;
+  color: springgreen;
+  text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+.sign7 {
+  padding-bottom: 8%;
+  padding-left: 26%;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0;
+  left: 50%;
+  top: 50%;
+  font-family: "The Girl Next Door";
   font-size: 2em;
   color: springgreen;
   text-shadow: 0 0 0.6rem springgreen, 0 0 1.5rem #ff65bd,
