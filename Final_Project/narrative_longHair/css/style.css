@@ -120,6 +120,20 @@ a:hover {
   margin-top: 7%;
   margin-left: 7%;
 }
+.responses_container4 {
+  flex: 1;
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 48%;
+  color: transparent;
+  font-family: "Syne Mono", monospace;
+  font-size: 100%;
+  line-height: 100%;
+  margin-top: 8%;
+  margin-left: 7%;
+  margin-right: 5%;
+}
 /*
 section {
   display: flex;
