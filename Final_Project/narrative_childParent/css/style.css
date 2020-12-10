@@ -577,7 +577,7 @@ body {
   animation: shine 2s forwards, flicker 3s infinite;
 }
 .sign8 {
-  padding-bottom: 8%;
+  padding-bottom: 10%;
   padding-left: 32%;
   position: absolute;
   display: flex;
