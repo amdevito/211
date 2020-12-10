@@ -1,4 +1,4 @@
-# CART 253 Final Project: The Sonic Shop Virtual Gallery
+# CART 211 Final Project: The Sonic Shop Virtual Gallery
 
 (CODE CREDITS BELOW)
 By: Alana DeVito
@@ -13,6 +13,7 @@ Gallery entrance link: https://amdevito.github.io/211/Final_Project/gallery_entr
 
 CODE CREDITS FOR PROJECT:
 Pippin Barr for CART 253 (Concordia University)
+Santo Romano for Cart 211 (Concordia University)
 Sabine Rosenberg at the C-LAB (Concordia University)
 Madeline Zaytsoff
 Zhang weidi https://www.youtube.com/watch?v=QjCtbMNLRuc
@@ -23,3 +24,5 @@ Ben Szabo for ‘deconstructed’ HTML/CSS font animations inspiration
 And
 https://freefrontend.com/css-glow-text-effects/
 For Sonic Shop Signage/Logo
+
+Video display code borrowed from https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm
